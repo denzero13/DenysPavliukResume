@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denys Pavliuk - Professional Resume</title>
+
+    <meta name="description" content="Python Developer & QA Automation Engineer | Embedded Systems Expert">
+    <meta name="author" content="Denys Pavliuk">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Denys Pavliuk Resume">
+    <meta property="og:url" content="https://denzero13.github.io/DenysPavliukResume/">
+    <meta property="og:title" content="Denys Pavliuk - Python Developer & QA Automation">
+    <meta property="og:description" content="Professional resume of Denys Pavliuk. Specialized in AQA, Python, and Embedded systems.">
+    <meta property="og:image" content="https://denzero13.github.io/DenysPavliukResume/preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Denys Pavliuk - Resume">
+    <meta name="twitter:description" content="Python Developer & QA Automation Engineer">
+    <meta name="twitter:image" content="https://denzero13.github.io/DenysPavliukResume/preview.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        @media print {
+            .no-print { display: none !important; }
+            body { background-color: white !important; color: #1e293b !important; }
+            .bg-slate-900 { background-color: white !important; }
+            .card { border: 1px solid #e2e8f0 !important; background: white !important; break-inside: avoid; margin-bottom: 1rem !important; }
+            .text-gradient { background: none !important; -webkit-text-fill-color: #0f172a !important; color: #0f172a !important; }
+            .skill-tag { border: 1px solid #cbd5e1 !important; color: #0f172a !important; background: #f1f5f9 !important; }
+            .text-teal-500, .text-teal-400 { color: #0d9488 !important; }
+        }
+    </style>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denys Pavliuk - Professional Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        @media print {
+            .no-print { display: none !important; }
+            body { background-color: white !important; color: #1e293b !important; }
+            .bg-slate-900 { background-color: white !important; }
+            .card { border: 1px solid #e2e8f0 !important; background: white !important; break-inside: avoid; margin-bottom: 1rem !important; }
+            .text-gradient { background: none !important; -webkit-text-fill-color: #0f172a !important; color: #0f172a !important; }
+            .skill-tag { border: 1px solid #cbd5e1 !important; color: #0f172a !important; background: #f1f5f9 !important; }
+            .text-teal-500, .text-teal-400 { color: #0d9488 !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-300 min-h-screen py-8 px-4 sm:px-8">
+
+    <div class="max-w-4xl mx-auto mb-8 flex flex-wrap justify-between items-center gap-4 no-print text-sm md:text-base">
+        <div class="flex bg-slate-800 p-1 rounded-xl border border-slate-700">
+            <button onclick="setLang('ua')" id="btn-ua" class="px-5 py-2 rounded-lg font-bold transition-all bg-teal-600 text-white">UA</button>
+            <button onclick="setLang('en')" id="btn-en" class="px-5 py-2 rounded-lg font-bold transition-all text-slate-400 hover:text-white">EN</button>
+        </div>
+        <button onclick="window.print()" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-medium py-2 px-6 rounded-xl transition-all shadow-lg">
+            <i class="fas fa-file-pdf"></i> Зберегти як PDF
+        </button>
+    </div>
+
+    <main class="max-w-4xl mx-auto">
+
+        <div id="lang-ua" class="lang-content active">
+            <header class="border-b border-slate-700 pb-8 mb-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 text-gradient uppercase tracking-tight">Денис Павлюк</h1>
+                <p class="text-xl md:text-2xl text-slate-200 font-medium">Python Розробник | QA Automation Engineer</p>
+                <div class="mt-5 flex flex-wrap gap-y-2 gap-x-6 text-sm text-slate-400">
+                    <span class="flex items-center gap-2"><i class="fas fa-envelope text-teal-500"></i> denyspavliuk13@gmail.com</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-phone text-teal-500"></i> +380 96 069 26 19</span>
+                    <a href="https://linkedin.com/in/denys-pavliuk-653546202" target="_blank" class="flex items-center gap-2 hover:text-white"><i class="fab fa-linkedin text-teal-500"></i> linkedin.com/in/denys-pavliuk</a>
+                </div>
+            </header>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-4">Про себе</h3>
+                <p class="text-lg leading-relaxed text-slate-400 text-justify">Досвідчений QA Automation Engineer з фокусом на тестуванні вбудованих систем (embedded). Спеціалізуюся на створенні стабільних та масштабованих фреймворків за допомогою Python та Pytest. Маю успішний досвід у впровадженні BDD-підходів, налаштуванні CI/CD пайплайнів та системної аналітики.</p>
+            </section>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-6">Досвід роботи</h3>
+                <div class="space-y-6">
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">AQA Engineer (Embedded Systems)</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">Трав 2022 — Зараз</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">Ajax Systems | Львів</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Розробка автотестів на <strong>Pytest</strong> для систем під управлінням <strong>RTOS</strong>.</li>
+                            <li>Написання unit-тестів для внутрішнього фреймворку тестування прошивок.</li>
+                            <li>Впровадження <strong>BDD</strong> (Behavior-Driven Development) та розробка кастомних плагінів для Python.</li>
+                            <li>Стабілізація тестів та аналіз результатів для усунення "flaky" поведінки.</li>
+                            <li>Налаштування візуалізації результатів у <strong>Grafana</strong> (Prometheus + TestRail).</li>
+                        </ul>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">Системний адміністратор</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">Лют 2021 — Квіт 2022</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">АТ "Житомирський маслозавод"</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Автоматизація IT-процесів через скрипти на <strong>Python, Bash та PowerShell</strong>.</li>
+                            <li>Адміністрування <strong>Active Directory</strong> (керування GPO, обліковими записами).</li>
+                            <li>Підтримка серверної інфраструктури та налаштування мережевого обладнання.</li>
+                            <li>Впровадження політик безпеки та фаєрволів відповідно до стандартів компанії.</li>
+                        </ul>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">Адміністратор ERP-систем</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">Черв 2020 — Груд 2020</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">Vishpha | Житомир</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Адміністрування <strong>IFS ERP</strong> на базі <strong>Oracle Database</strong> (використання PL/SQL).</li>
+                            <li>Розробка аналітичних звітів та дашбордів для фінансового та логістичного відділів.</li>
+                            <li>Оптимізація бізнес-процесів через усунення системних помилок та підтримку користувачів.</li>
+                            <li>Технічна підтримка офісної інфраструктури та мережевих пристроїв.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-6">Освіта</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <p class="text-teal-400 font-bold text-xs mb-1 uppercase tracking-widest">Магістр</p>
+                        <h4 class="text-white font-bold leading-tight mb-2">Мехатроніка та робототехніка</h4>
+                        <p class="text-slate-500 text-sm italic">Житомирська політехніка | 2019 - 2020</p>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <p class="text-teal-400 font-bold text-xs mb-1 uppercase tracking-widest">Бакалавр</p>
+                        <h4 class="text-white font-bold leading-tight mb-2">Економіка підприємства</h4>
+                        <p class="text-slate-500 text-sm italic">Житомирська політехніка | 2015 - 2019</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="lang-en" class="lang-content">
+            <header class="border-b border-slate-700 pb-8 mb-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 text-gradient uppercase tracking-tight">Denys Pavliuk</h1>
+                <p class="text-xl md:text-2xl text-slate-200 font-medium">Python Developer | QA Automation Engineer</p>
+                <div class="mt-5 flex flex-wrap gap-y-2 gap-x-6 text-sm text-slate-400">
+                    <span class="flex items-center gap-2"><i class="fas fa-envelope text-teal-500"></i> denyspavliuk13@gmail.com</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-phone text-teal-500"></i> +380 96 069 26 19</span>
+                    <a href="https://linkedin.com/in/denys-pavliuk-653546202" target="_blank" class="flex items-center gap-2 hover:text-white"><i class="fab fa-linkedin text-teal-500"></i> linkedin.com/in/denys-pavliuk</a>
+                </div>
+            </header>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-4">Summary</h3>
+                <p class="text-lg leading-relaxed text-slate-400 text-justify">Experienced QA Automation Engineer focused on embedded systems (RTOS). Specialized in building stable and scalable testing frameworks using Python and Pytest. Proven expertise in BDD implementation, CI/CD pipeline integration, and test analytics visualization.</p>
+            </section>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-6">Work Experience</h3>
+                <div class="space-y-6">
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700 hover:border-teal-500/50 transition-colors">
+                        <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">AQA Engineer (Embedded Systems)</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">May 2022 — Present</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">Ajax Systems | Lviv, Ukraine</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Developed automated tests using <strong>Pytest</strong> for systems running <strong>RTOS</strong>.</li>
+                            <li>Wrote unit tests for internal firmware testing frameworks.</li>
+                            <li>Designed custom Python frameworks and Pytest plugins tailored for <strong>BDD</strong> approach.</li>
+                            <li>Integrated automated firmware validation into <strong>CI/CD pipelines</strong>.</li>
+                            <li>Implemented test analytics dashboards in <strong>Grafana</strong> (integrated with Prometheus and TestRail).</li>
+                        </ul>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700 hover:border-teal-500/50 transition-colors">
+                        <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">System Administrator</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">Feb 2021 — Apr 2022</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">PJSC "Zhytomyr Butter Plant" | Zhytomyr, Ukraine</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Automated routine IT tasks using <strong>Python, Bash, and PowerShell</strong>.</li>
+                            <li>Managed <strong>Active Directory</strong> infrastructure (users, groups, and GPO).</li>
+                            <li>Administered physical/virtual servers and networking equipment.</li>
+                            <li>Maintained system health monitoring and enforced security compliance policies.</li>
+                        </ul>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700 hover:border-teal-500/50 transition-colors">
+                        <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-white">ERP System Administrator</h4>
+                            <span class="text-xs text-slate-500 font-bold uppercase">Jun 2020 — Dec 2020</span>
+                        </div>
+                        <p class="text-teal-400 font-bold mb-4">Vishpha | Zhytomyr, Ukraine</p>
+                        <ul class="list-disc list-inside space-y-2 text-slate-400 text-sm md:text-base">
+                            <li>Administered <strong>IFS ERP</strong> on <strong>Oracle Database</strong> using PL/SQL scripts.</li>
+                            <li>Developed custom analytical reports and dashboards for logistics and finance departments.</li>
+                            <li>Resolved complex ERP system errors to ensure business continuity.</li>
+                            <li>Managed office network infrastructure and provided high-level user support.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h3 class="text-teal-500 font-bold uppercase tracking-widest text-xs mb-6">Education</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <p class="text-teal-400 font-bold text-xs mb-1 uppercase tracking-widest">Master's Degree</p>
+                        <h4 class="text-white font-bold leading-tight mb-2">Mechatronics and Robotics</h4>
+                        <p class="text-slate-400 text-sm italic">Zhytomyr Polytechnic State University | 2019 - 2020</p>
+                    </div>
+                    <div class="card bg-slate-800/40 p-6 rounded-2xl border border-slate-700">
+                        <p class="text-teal-400 font-bold text-xs mb-1 uppercase tracking-widest">Bachelor's Degree</p>
+                        <h4 class="text-white font-bold leading-tight mb-2">Business Economics</h4>
+                        <p class="text-slate-400 text-sm italic">Zhytomyr Polytechnic State University | 2015 - 2019</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            document.getElementById('lang-' + lang).classList.add('active');
+
+            document.getElementById('btn-ua').className = lang === 'ua' ? 'px-5 py-2 rounded-lg font-bold transition-all bg-teal-600 text-white' : 'px-5 py-2 rounded-lg font-bold transition-all text-slate-400';
+            document.getElementById('btn-en').className = lang === 'en' ? 'px-5 py-2 rounded-lg font-bold transition-all bg-teal-600 text-white' : 'px-5 py-2 rounded-lg font-bold transition-all text-slate-400';
+        }
+    </script>
+</body>
+</html>
